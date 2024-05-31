@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice Basique</title>
+    <style>
+        #calculator {
+            max-width: 200px;
+            margin: auto;
+        }
+        .row {
+            display: flex;
+        }
+        button {
+            flex: 1;
+            padding: 10px;
+            font-size: 18px;
+        }
+        #display {
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" disabled>
+        <div class="row">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>/</button>
+        </div>
+        <div class="row">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>*</button>
+        </div>
+        <div class="row">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>-</button>
+        </div>
+        <div class="row">
+            <button>0</button>
+            <button>.</button>
+            <button>=</button>
+            <button>+</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
